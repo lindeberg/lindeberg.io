@@ -1,0 +1,19 @@
+{
+  "name": "lindeberg.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindeberg/lindeberg.io.git"
+  },
+  "author": "Leon Lindeberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindeberg/lindeberg.io/issues"
+  },
+  "homepage": "https://github.com/lindeberg/lindeberg.io#readme",
+  "dependencies": {
+    "sass": "^1.43.2"
+  }
+}
