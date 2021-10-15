@@ -1,0 +1,18 @@
+{
+  "name": "lindeberg.io",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindeberg/lindeberg.io.git"
+  },
+  "author": "Leon Lindeberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindeberg/lindeberg.io/issues"
+  },
+  "homepage": "https://github.com/lindeberg/lindeberg.io#readme",
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
