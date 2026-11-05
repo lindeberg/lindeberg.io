@@ -2,48 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Leon Lindeberg</title>
+    <title>Black hole</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"
+    />
 
     <link rel="stylesheet" href="styles.css" />
     <link rel="preload" href="assets/images/stars.webp" as="image" type="image/webp" />
     <link rel="preload" href="assets/images/twinkling.webp" as="image" type="image/webp" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap"
-    />
-
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/assets/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="site.webmanifest" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta name="description" content="Software, golf, King Gizzard." />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Leon Lindeberg" />
-    <meta property="og:url" content="https://www.lindeberg.io/" />
-    <meta property="og:image" content="https://www.lindeberg.io/assets/favicons/android-chrome-512x512.png" />
-    <meta property="og:description" content="Software, golf, King Gizzard." />
-    <meta name="og:site_name" content="lindeberg.io" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png" />
   </head>
   <body>
     <div class="background-container">
@@ -51,39 +25,9 @@
       <div class="twinkling"></div>
     </div>
     <main>
-      <div class="fade"></div>
-
-      <section class="star-wars">
-        <div class="crawl">
-          <div class="title">
-            <p>Episode XXV</p>
-            <h1>Leon Lindeberg</h1>
-          </div>
-
-          <p>
-            It’s a period of exciting things. I'm starting a new job as a
-            software development consultant at
-            <a href="https://uptive.se" target="_blank" rel="noopener noreferrer">Uptive</a>.
-          </p>
-
-          <p>
-            My aspiration is to find a great team that’s building cool things.
-          </p>
-
-          <p>
-            Aside from that, I've resumed the endeavour to master aqua-mobility
-            (swimming) and vertical surface escalation (climbing). In the
-            evenings, I ponder the universe, theories of consciousness and how
-            to abolish suffering, while listening to
-            <a
-              href="https://open.spotify.com/user/xdream10?si=e077b7d123dd49e0"
-              target="_blank"
-              rel="noopener noreferrer"
-              >great music</a
-            >.
-          </p>
-        </div>
-      </section>
+      <canvas id="toy"></canvas>
+      <p class="hint">Move the mouse. Click and hold to feed the black hole.</p>
     </main>
+    <script src="toy.js" defer></script>
   </body>
 </html>

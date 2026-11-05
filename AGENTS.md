@@ -1,15 +1,7 @@
 # AGENTS.md
 
-## Overview
+Static single-page toy site, served by GitHub Pages from the repo root at `www.lindeberg.io`.
 
-Static single-page personal site. Hosted on GitHub Pages from the repo root. Domain: `www.lindeberg.io`.
-
-## Styles
-
-- Edit `styles.scss`, never `styles.css` directly -- it is compiled output.
-- Compile: `npx sass styles.scss styles.css`
-- `styles.css` must be committed (no CI build step).
-
-## Deployment
-
-Push to `main` triggers GitHub Pages. No build pipeline -- all files are served as-is from the repo root.
+- Plain HTML, CSS and JS. No build step, no dependencies, nothing loaded from other origins (the CSP in `index.html` enforces it).
+- The page must not say anything about its owner: no name, employer, location, links to profiles, or SEO metadata. It stays `noindex`.
+- Push to `main` deploys.
