@@ -107,7 +107,6 @@
     pointer.down = true;
     hue = (hue + 47) % 360;
     burst(40);
-    document.body.classList.add("played");
   });
   const release = () => {
     pointer.down = false;
